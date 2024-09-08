@@ -255,29 +255,26 @@
   <template id="info.html">
     <ons-page>
       <div class="credits-header">
-        <p class="intro">Trouble shooting:</p>
+        <p class="intro">Troubleshooting:</p>
       </div>
-      <p class="limited-width">Please ensure you have URL Scheme enabled when trying to install apps with trollstore. It
-        is under the security section in your trollstore app.</p>
-      <img src="assets/img/URL_scheme_Troll.jpeg" alt="Screenshot" class="centered-image">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Text on the left -->
+          <div class="col-md-8">
+            <p class="limited-width">
+              Please ensure you have URL Scheme enabled when trying to install apps with TrollStore. It is under the security section in your TrollStore app.
+            </p>
+          </div>
+          
+          <!-- Image on the right -->
+          <div class="col-md-4 text-center">
+            <img src="assets/img/URL_scheme_Troll.jpeg" alt="Screenshot" class="img-fluid centered-image">
+          </div>
+        </div>
+      </div>
+      
       <br>
-      <div class="credits-header">
-        <p class="intro">Resources used for this project:</p>
-      </div>
       <div class="credits-list">
-        <ons-card class="credit-card" onclick="location.href='https://onsen.io';">
-          <div class="card-content">
-            <div class="card-title">Onsen UI</div>
-            <div class="card-description">The most beautiful and efficient way to develop HTML5 hybrid and mobile web
-              apps.</div>
-          </div>
-        </ons-card>
-        <ons-card class="credit-card" onclick="location.href='https://github.com/swaggyP36000/TrollStore-IPAs';">
-          <div class="card-content">
-            <div class="card-title">Trollstore IPA's</div>
-            <div class="card-description">A collection from many different sources, for TrollStore!</div>
-          </div>
-        </ons-card>
         <div class="credits-header">
           <p class="intro">Disclaimer:</p>
         </div>
